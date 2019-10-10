@@ -1,5 +1,5 @@
 <?php
-print $_SERVER['HTTP_HOST'];
-print gethostbyname(gethostname());
+var_dump($_SERVER['HTTP_HOST']);
+var_dump(gethostbyname(gethostname()));
 phpinfo();
-print "bbbbb";
+print "aaaaa";print "bbbbb";
